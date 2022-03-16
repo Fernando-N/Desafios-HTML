@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: brown;
+}
+
+img {
+  width: 400px;
+}
+
+aside > img {
+  width: 200px;
+}

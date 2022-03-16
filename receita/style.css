@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+
+  font-size: 14px;
+}
+
+body {
+  height: 95vh;
+  width: 95vw;
+
+  display: flex;
+  background-color: #eaeaea;
+
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+main {
+  background-color: #ffff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto 2rem auto;
+}
+
+div > img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  margin: auto;
+
+  width: 500px;
+  height: 200px;
+}
+
+small {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.container {
+  height: 90vh;
+  width: 60vw;
+  margin: auto;
+}
+
+section > ul,
+ol {
+  margin-left: 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+/* 
+- Background da página: `#EAEAEA`;
+- Background da receita: `#FFFFFF`;
+- Títulos e subtítulos: `#1B1B1B`;
+- Footer e legenda da imagem: `#8F8F8F`;
+- Outros textos: `#39393A`;
+*/
